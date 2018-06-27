@@ -1,2 +1,3 @@
 # Codenames
-Game
+
+Rules: 
