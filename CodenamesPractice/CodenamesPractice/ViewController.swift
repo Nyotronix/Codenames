@@ -10,11 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    //MARK: Outlets
     @IBOutlet weak var outsideStack: UIStackView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //Setting up variables for random nouns
         let fm = FileManager()
         let path = Bundle.main.path(forResource: "nouns", ofType: "txt")!
         let content = fm.contents(atPath: path)
@@ -23,6 +25,7 @@ class ViewController: UIViewController {
         var usedNouns = [String]()
         var tempNoun = ""
         
+        //Assign random noun to each label
         for view in outsideStack.subviews {
             for case let subview as UILabel in view.subviews {
                 tempNoun = nouns[Int(arc4random_uniform(UInt32(nouns.count)))]
@@ -34,5 +37,7 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+    //MARK: Actions
 
 }
