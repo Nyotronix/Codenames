@@ -1,6 +1,7 @@
 # Codenames
 
-Rules: 
+Rules:
+
 Ok so codenames is a game with a minimum of four people. You make two teams, and choose one person from each team to be the spymaster (lol combinations). Basically there is a 5X5 grid (so 25) of common english words. 9 of those words go to team that starts first, 8 go to the second team, 7 are neutral, 1 is the death word. The spymasters can see which word is which, but the other players cannot see which word goes to what team.
 
 Btw usually each player has their own grid on their own device that are connected by network, but we can just do hot seat so we don’t have to deal with network stuff at first.
