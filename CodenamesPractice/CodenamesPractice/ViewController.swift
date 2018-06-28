@@ -20,10 +20,17 @@ class ViewController: UIViewController {
         let content = fm.contents(atPath: path)
         var nouns: Array = String(data: content!, encoding: String.Encoding.utf8)!.components(separatedBy: ",")
         nouns = nouns[...(nouns.count - 2)] + ["worm"]
+        var usedNouns = [String]()
+        var tempNoun = ""
         
         for view in outsideStack.subviews {
             for case let subview as UILabel in view.subviews {
-                subview.text = nouns[Int(arc4random_uniform(UInt32(nouns.count)))]
+                tempNoun = nouns[Int(arc4random_uniform(UInt32(nouns.count)))]
+                while usedNouns.contains(tempNoun) {
+                    tempNoun = nouns[Int(arc4random_uniform(UInt32(nouns.count)))]
+                }
+                subview.text = tempNoun
+                usedNouns.append(tempNoun)
             }
         }
     }
