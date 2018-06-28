@@ -12,6 +12,7 @@ class ViewController: UIViewController {
     
     //MARK: Outlets
     @IBOutlet weak var outsideStack: UIStackView!
+    @IBOutlet var nounLabels: [UILabel]!
     
     override func viewDidLoad() {
         super.viewDidLoad()
