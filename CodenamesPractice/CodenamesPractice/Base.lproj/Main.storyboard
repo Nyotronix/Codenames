@@ -210,6 +210,31 @@
                     </view>
                     <connections>
                         <outlet property="outsideStack" destination="Uxh-nq-LXr" id="56v-9X-KOV"/>
+                        <outletCollection property="nounLabels" destination="HhE-Ah-qGV" collectionClass="NSMutableArray" id="S6p-6N-cph"/>
+                        <outletCollection property="nounLabels" destination="LNe-y5-wYh" collectionClass="NSMutableArray" id="ygL-XY-Jaf"/>
+                        <outletCollection property="nounLabels" destination="GTW-x2-cTT" collectionClass="NSMutableArray" id="hEi-DU-vb8"/>
+                        <outletCollection property="nounLabels" destination="Qt2-JQ-Uc2" collectionClass="NSMutableArray" id="Ypt-BG-gAo"/>
+                        <outletCollection property="nounLabels" destination="3C5-hT-Ig7" collectionClass="NSMutableArray" id="JsA-sQ-qxo"/>
+                        <outletCollection property="nounLabels" destination="roe-PJ-R6A" collectionClass="NSMutableArray" id="JJk-WD-U9p"/>
+                        <outletCollection property="nounLabels" destination="gYz-ov-izY" collectionClass="NSMutableArray" id="MjS-Gx-8HZ"/>
+                        <outletCollection property="nounLabels" destination="dDQ-Nf-iEA" collectionClass="NSMutableArray" id="tvK-xz-gRi"/>
+                        <outletCollection property="nounLabels" destination="iqw-CK-iV7" collectionClass="NSMutableArray" id="7Df-6Q-xWG"/>
+                        <outletCollection property="nounLabels" destination="SVH-72-mJH" collectionClass="NSMutableArray" id="4OX-Um-KJr"/>
+                        <outletCollection property="nounLabels" destination="Feh-Cr-lQg" collectionClass="NSMutableArray" id="wlp-Sq-EFa"/>
+                        <outletCollection property="nounLabels" destination="cpC-WU-4ck" collectionClass="NSMutableArray" id="JR7-Fa-oId"/>
+                        <outletCollection property="nounLabels" destination="NOm-ZQ-Fay" collectionClass="NSMutableArray" id="olm-m5-eSS"/>
+                        <outletCollection property="nounLabels" destination="aLv-WB-Ns2" collectionClass="NSMutableArray" id="vtM-3m-iOn"/>
+                        <outletCollection property="nounLabels" destination="qip-ny-Zqy" collectionClass="NSMutableArray" id="3mg-dG-Rzn"/>
+                        <outletCollection property="nounLabels" destination="a3p-Ex-lW4" collectionClass="NSMutableArray" id="P2I-bE-VN7"/>
+                        <outletCollection property="nounLabels" destination="JRk-oQ-0Ig" collectionClass="NSMutableArray" id="G7d-xo-ScM"/>
+                        <outletCollection property="nounLabels" destination="YWJ-gV-j04" collectionClass="NSMutableArray" id="ptL-Jq-fr4"/>
+                        <outletCollection property="nounLabels" destination="Zjh-Ux-kat" collectionClass="NSMutableArray" id="Sa6-Yc-TZy"/>
+                        <outletCollection property="nounLabels" destination="DMN-kS-7bI" collectionClass="NSMutableArray" id="D1i-dY-LUl"/>
+                        <outletCollection property="nounLabels" destination="cic-Ct-08X" collectionClass="NSMutableArray" id="56V-9f-Qhh"/>
+                        <outletCollection property="nounLabels" destination="bkS-GZ-Z7v" collectionClass="NSMutableArray" id="coV-Uj-Uxm"/>
+                        <outletCollection property="nounLabels" destination="IT5-Nc-pTe" collectionClass="NSMutableArray" id="tmm-iM-K0n"/>
+                        <outletCollection property="nounLabels" destination="Zf5-2v-qdo" collectionClass="NSMutableArray" id="7bH-Dt-sZ5"/>
+                        <outletCollection property="nounLabels" destination="Q8k-b0-0Ni" collectionClass="NSMutableArray" id="M04-Yh-Mmi"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
