@@ -27,15 +27,13 @@ class ViewController: UIViewController {
         var tempNoun = ""
         
         //Assign random noun to each label
-        for view in outsideStack.subviews {
-            for case let subview as UILabel in view.subviews {
+        for noun in nounLabels {
+            tempNoun = nouns[Int(arc4random_uniform(UInt32(nouns.count)))]
+            while usedNouns.contains(tempNoun) {
                 tempNoun = nouns[Int(arc4random_uniform(UInt32(nouns.count)))]
-                while usedNouns.contains(tempNoun) {
-                    tempNoun = nouns[Int(arc4random_uniform(UInt32(nouns.count)))]
-                }
-                subview.text = tempNoun
-                usedNouns.append(tempNoun)
             }
+            noun.text = tempNoun
+            usedNouns.append(tempNoun)
         }
     }
     
