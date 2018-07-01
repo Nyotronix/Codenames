@@ -35,6 +35,19 @@ class ViewController: UIViewController {
             noun.text = tempNoun
             usedNouns.append(tempNoun)
         }
+        
+        //Assing teams to each noun
+        var tempInt: Int
+        var nounColors = [UIColor?](repeatElement(nil, count: 25))
+        var choosingColors = [UIColor](repeatElement(UIColor.blue, count: 8)) + [UIColor](repeatElement(UIColor.green, count: 8))
+        choosingColors += [UIColor](repeatElement(UIColor.black, count: 8))
+        choosingColors += [UIColor.red]
+        for noun in 0...24 {
+            tempInt = Int(arc4random_uniform(UInt32(choosingColors.count)))
+            nounColors[noun] = choosingColors[tempInt]
+            choosingColors.remove(at: tempInt)
+            nounLabels[noun].textColor = nounColors[noun]
+        }
     }
     
     //MARK: Actions
