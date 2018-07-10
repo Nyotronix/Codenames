@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     //MARK: Outlets
     @IBOutlet weak var outsideStack: UIStackView!
     @IBOutlet var nounLabels: [UILabel]!
+    @IBOutlet weak var turnIdentity: UILabel!
+    
+    //MARK: Global Variables
+    var turnInt: Int = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -52,5 +56,20 @@ class ViewController: UIViewController {
     
     //MARK: Actions
     @IBAction func EndTurnButton(_ sender: UIButton) {
+        //Change the team, changing the colors of the words and the team identity label
+        //Change the label
+        turnInt = (turnInt + 1) % 4
+        switch turnInt{
+        case 0:
+            turnIdentity.text = "Blue spymaster"
+        case 1:
+            turnIdentity.text = "Blue team members"
+        case 2:
+            turnIdentity.text = "Green spymaster"
+        case 3:
+            turnIdentity.text = "Green team members"
+        default:
+            turnIdentity.text = "Lol this shouldn't happen"
+        }
     }
 }

@@ -209,20 +209,30 @@
                                     <action selector="EndTurnButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yQO-7E-bem"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue spymaster" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOa-lL-ReT">
+                                <rect key="frame" x="128" y="65" width="118" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="AOa-lL-ReT" firstAttribute="top" secondItem="Dy2-mr-gpg" secondAttribute="bottom" constant="10" id="5P0-xS-z8g"/>
                             <constraint firstItem="Dy2-mr-gpg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="D9C-Qg-aS9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Uxh-nq-LXr" secondAttribute="trailing" id="Mc8-EL-RxH"/>
                             <constraint firstItem="Dy2-mr-gpg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PM5-Bw-tjN"/>
-                            <constraint firstItem="Uxh-nq-LXr" firstAttribute="top" secondItem="Dy2-mr-gpg" secondAttribute="bottom" constant="50" id="VAn-SX-1aM"/>
+                            <constraint firstItem="Uxh-nq-LXr" firstAttribute="top" secondItem="AOa-lL-ReT" secondAttribute="bottom" constant="19.5" id="VAn-SX-1aM"/>
                             <constraint firstItem="Uxh-nq-LXr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="rSL-kJ-TFu"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Uxh-nq-LXr" secondAttribute="bottom" id="tOA-Ej-ui0"/>
+                            <constraint firstItem="AOa-lL-ReT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xVw-DS-qkM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="TurnIdentity" destination="AOa-lL-ReT" id="diX-PR-KCa"/>
                         <outlet property="outsideStack" destination="Uxh-nq-LXr" id="56v-9X-KOV"/>
+                        <outlet property="turnIdentity" destination="AOa-lL-ReT" id="flU-LK-Qiq"/>
                         <outletCollection property="nounLabels" destination="HhE-Ah-qGV" collectionClass="NSMutableArray" id="S6p-6N-cph"/>
                         <outletCollection property="nounLabels" destination="LNe-y5-wYh" collectionClass="NSMutableArray" id="ygL-XY-Jaf"/>
                         <outletCollection property="nounLabels" destination="GTW-x2-cTT" collectionClass="NSMutableArray" id="hEi-DU-vb8"/>
