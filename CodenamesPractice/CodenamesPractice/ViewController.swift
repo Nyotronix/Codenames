@@ -12,8 +12,8 @@ class ViewController: UIViewController {
     
     //MARK: Outlets
     @IBOutlet weak var outsideStack: UIStackView!
-    @IBOutlet var nounLabels: [UILabel]!
     @IBOutlet weak var turnIdentity: UILabel!
+    @IBOutlet var nounButtons: [UIButton]!
     
     //MARK: Global Variables
     var turnInt: Int = 0
@@ -31,12 +31,12 @@ class ViewController: UIViewController {
         var tempNoun = ""
         
         //Assign random noun to each label
-        for noun in nounLabels {
+        for noun in nounButtons {
             tempNoun = nouns[Int(arc4random_uniform(UInt32(nouns.count)))]
             while usedNouns.contains(tempNoun) {
                 tempNoun = nouns[Int(arc4random_uniform(UInt32(nouns.count)))]
             }
-            noun.text = tempNoun
+            noun.setTitle(tempNoun, for: .normal)
             usedNouns.append(tempNoun)
         }
         
@@ -50,7 +50,7 @@ class ViewController: UIViewController {
             tempInt = Int(arc4random_uniform(UInt32(choosingColors.count)))
             nounColors[noun] = choosingColors[tempInt]
             choosingColors.remove(at: tempInt)
-            nounLabels[noun].textColor = nounColors[noun]
+            nounButtons[noun].setTitleColor(nounColors[noun], for: .normal)
         }
     }
     
@@ -71,5 +71,7 @@ class ViewController: UIViewController {
         default:
             turnIdentity.text = "Lol this shouldn't happen"
         }
+        
+        
     }
 }

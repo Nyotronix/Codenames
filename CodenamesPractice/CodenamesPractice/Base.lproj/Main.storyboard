@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -19,188 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Uxh-nq-LXr">
-                                <rect key="frame" x="0.0" y="86" width="375" height="582"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="TLz-lw-aw3">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="116.5"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HhE-Ah-qGV">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="116.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LNe-y5-wYh">
-                                                <rect key="frame" x="75" y="0.0" width="75" height="116.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTW-x2-cTT">
-                                                <rect key="frame" x="150" y="0.0" width="75" height="116.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qt2-JQ-Uc2">
-                                                <rect key="frame" x="225" y="0.0" width="75" height="116.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3C5-hT-Ig7">
-                                                <rect key="frame" x="300" y="0.0" width="75" height="116.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="fEN-Sh-5tg">
-                                        <rect key="frame" x="0.0" y="116.5" width="375" height="116.5"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="roe-PJ-R6A">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="116.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gYz-ov-izY">
-                                                <rect key="frame" x="75" y="0.0" width="75" height="116.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dDQ-Nf-iEA">
-                                                <rect key="frame" x="150" y="0.0" width="75" height="116.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iqw-CK-iV7">
-                                                <rect key="frame" x="225" y="0.0" width="75" height="116.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SVH-72-mJH">
-                                                <rect key="frame" x="300" y="0.0" width="75" height="116.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="VIg-YM-GiX">
-                                        <rect key="frame" x="0.0" y="233" width="375" height="116"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Feh-Cr-lQg">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="116"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cpC-WU-4ck">
-                                                <rect key="frame" x="75" y="0.0" width="75" height="116"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NOm-ZQ-Fay">
-                                                <rect key="frame" x="150" y="0.0" width="75" height="116"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aLv-WB-Ns2">
-                                                <rect key="frame" x="225" y="0.0" width="75" height="116"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qip-ny-Zqy">
-                                                <rect key="frame" x="300" y="0.0" width="75" height="116"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="qpa-g2-JUB">
-                                        <rect key="frame" x="0.0" y="349" width="375" height="116.5"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a3p-Ex-lW4">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="116.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRk-oQ-0Ig">
-                                                <rect key="frame" x="75" y="0.0" width="75" height="116.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YWJ-gV-j04">
-                                                <rect key="frame" x="150" y="0.0" width="75" height="116.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zjh-Ux-kat">
-                                                <rect key="frame" x="225" y="0.0" width="75" height="116.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DMN-kS-7bI">
-                                                <rect key="frame" x="300" y="0.0" width="75" height="116.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="K4t-0m-SGL">
-                                        <rect key="frame" x="0.0" y="465.5" width="375" height="116.5"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cic-Ct-08X">
-                                                <rect key="frame" x="0.0" y="0.0" width="75" height="116.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bkS-GZ-Z7v">
-                                                <rect key="frame" x="75" y="0.0" width="75" height="116.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IT5-Nc-pTe">
-                                                <rect key="frame" x="150" y="0.0" width="75" height="116.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zf5-2v-qdo">
-                                                <rect key="frame" x="225" y="0.0" width="75" height="116.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TempWord" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q8k-b0-0Ni">
-                                                <rect key="frame" x="300" y="0.0" width="75" height="116.5"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                    </stackView>
-                                </subviews>
-                            </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dy2-mr-gpg">
-                                <rect key="frame" x="142" y="25" width="91" height="30"/>
+                                <rect key="frame" x="156.5" y="25" width="62" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="cMC-mB-e8h"/>
                                 </constraints>
@@ -210,7 +29,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Blue spymaster" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AOa-lL-ReT">
-                                <rect key="frame" x="128" y="60" width="118" height="21"/>
+                                <rect key="frame" x="128.5" y="60" width="118" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="Qqd-qk-xqy"/>
                                 </constraints>
@@ -218,50 +37,253 @@
                                 <color key="textColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="Bb0-7v-dot">
+                                <rect key="frame" x="0.0" y="86" width="375" height="581"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="tnT-gl-dx6">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="116"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GcA-hT-CPV">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="116"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zSK-9F-LcL">
+                                                <rect key="frame" x="75" y="0.0" width="75" height="116"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4TV-TL-rje">
+                                                <rect key="frame" x="150" y="0.0" width="75" height="116"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7fo-PP-PLb">
+                                                <rect key="frame" x="225" y="0.0" width="75" height="116"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zmj-xl-OgN">
+                                                <rect key="frame" x="300" y="0.0" width="75" height="116"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="N3l-9s-H4m">
+                                        <rect key="frame" x="0.0" y="116" width="375" height="116.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q7n-N5-SnW">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="116.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A5w-q4-4Sc">
+                                                <rect key="frame" x="75" y="0.0" width="75" height="116.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="24Y-1G-Zn5">
+                                                <rect key="frame" x="150" y="0.0" width="75" height="116.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XQx-yi-1w7">
+                                                <rect key="frame" x="225" y="0.0" width="75" height="116.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0F1-y1-P96">
+                                                <rect key="frame" x="300" y="0.0" width="75" height="116.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="8x0-0R-rN0">
+                                        <rect key="frame" x="0.0" y="232.5" width="375" height="116"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wFO-UA-v2Y">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="116"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pLC-an-3Gs">
+                                                <rect key="frame" x="75" y="0.0" width="75" height="116"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GbB-3M-s7x">
+                                                <rect key="frame" x="150" y="0.0" width="75" height="116"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yFJ-ac-dde">
+                                                <rect key="frame" x="225" y="0.0" width="75" height="116"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qwv-7e-lU3">
+                                                <rect key="frame" x="300" y="0.0" width="75" height="116"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="cKa-gx-xX7">
+                                        <rect key="frame" x="0.0" y="348.5" width="375" height="116.5"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZg-7k-8yh">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="116.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tZ3-Uu-ATj">
+                                                <rect key="frame" x="75" y="0.0" width="75" height="116.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kSM-hY-meD">
+                                                <rect key="frame" x="150" y="0.0" width="75" height="116.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="py1-nP-YiH">
+                                                <rect key="frame" x="225" y="0.0" width="75" height="116.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8L-bp-RXR">
+                                                <rect key="frame" x="300" y="0.0" width="75" height="116.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="kZd-ZN-MWF">
+                                        <rect key="frame" x="0.0" y="465" width="375" height="116"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1x4-83-OIV">
+                                                <rect key="frame" x="0.0" y="0.0" width="75" height="116"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qlP-ZH-Gjv">
+                                                <rect key="frame" x="75" y="0.0" width="75" height="116"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nTj-MA-iJJ">
+                                                <rect key="frame" x="150" y="0.0" width="75" height="116"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMI-K5-MJZ">
+                                                <rect key="frame" x="225" y="0.0" width="75" height="116"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dbt-Y5-V3w">
+                                                <rect key="frame" x="300" y="0.0" width="75" height="116"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                                <state key="normal" title="TempWord">
+                                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="bottomMargin" secondItem="Uxh-nq-LXr" secondAttribute="bottom" constant="-1" id="8OF-nM-mSC"/>
+                            <constraint firstItem="AOa-lL-ReT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7lz-Rs-syH"/>
                             <constraint firstItem="Dy2-mr-gpg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="5" id="FPV-Sp-Aha"/>
                             <constraint firstItem="AOa-lL-ReT" firstAttribute="top" secondItem="Dy2-mr-gpg" secondAttribute="bottom" constant="5" id="GYD-Ve-gqZ"/>
-                            <constraint firstItem="Dy2-mr-gpg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="142" id="elo-gn-YZw"/>
-                            <constraint firstItem="Dy2-mr-gpg" firstAttribute="centerX" secondItem="AOa-lL-ReT" secondAttribute="centerX" id="hA5-Oe-W1d"/>
-                            <constraint firstItem="Uxh-nq-LXr" firstAttribute="top" secondItem="AOa-lL-ReT" secondAttribute="bottom" constant="5" id="nW4-6l-Ahx"/>
-                            <constraint firstItem="AOa-lL-ReT" firstAttribute="centerX" secondItem="Uxh-nq-LXr" secondAttribute="centerX" id="paY-e2-Tqa"/>
-                            <constraint firstAttribute="trailing" secondItem="Uxh-nq-LXr" secondAttribute="trailing" id="u5V-fm-LPV"/>
-                            <constraint firstItem="Uxh-nq-LXr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="wBh-up-D0w"/>
+                            <constraint firstItem="Bb0-7v-dot" firstAttribute="top" secondItem="AOa-lL-ReT" secondAttribute="bottom" constant="5" id="JtF-4S-mkN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Bb0-7v-dot" secondAttribute="trailing" id="alr-PZ-bx4"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Bb0-7v-dot" secondAttribute="bottom" id="bnL-6W-H43"/>
+                            <constraint firstItem="Bb0-7v-dot" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vyp-Rz-r3L"/>
+                            <constraint firstItem="Dy2-mr-gpg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="xg0-pm-2Gw"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="TurnIdentity" destination="AOa-lL-ReT" id="diX-PR-KCa"/>
-                        <outlet property="outsideStack" destination="Uxh-nq-LXr" id="56v-9X-KOV"/>
                         <outlet property="turnIdentity" destination="AOa-lL-ReT" id="flU-LK-Qiq"/>
-                        <outletCollection property="nounLabels" destination="HhE-Ah-qGV" collectionClass="NSMutableArray" id="S6p-6N-cph"/>
-                        <outletCollection property="nounLabels" destination="LNe-y5-wYh" collectionClass="NSMutableArray" id="ygL-XY-Jaf"/>
-                        <outletCollection property="nounLabels" destination="GTW-x2-cTT" collectionClass="NSMutableArray" id="hEi-DU-vb8"/>
-                        <outletCollection property="nounLabels" destination="Qt2-JQ-Uc2" collectionClass="NSMutableArray" id="Ypt-BG-gAo"/>
-                        <outletCollection property="nounLabels" destination="3C5-hT-Ig7" collectionClass="NSMutableArray" id="JsA-sQ-qxo"/>
-                        <outletCollection property="nounLabels" destination="roe-PJ-R6A" collectionClass="NSMutableArray" id="JJk-WD-U9p"/>
-                        <outletCollection property="nounLabels" destination="gYz-ov-izY" collectionClass="NSMutableArray" id="MjS-Gx-8HZ"/>
-                        <outletCollection property="nounLabels" destination="dDQ-Nf-iEA" collectionClass="NSMutableArray" id="tvK-xz-gRi"/>
-                        <outletCollection property="nounLabels" destination="iqw-CK-iV7" collectionClass="NSMutableArray" id="7Df-6Q-xWG"/>
-                        <outletCollection property="nounLabels" destination="SVH-72-mJH" collectionClass="NSMutableArray" id="4OX-Um-KJr"/>
-                        <outletCollection property="nounLabels" destination="Feh-Cr-lQg" collectionClass="NSMutableArray" id="wlp-Sq-EFa"/>
-                        <outletCollection property="nounLabels" destination="cpC-WU-4ck" collectionClass="NSMutableArray" id="JR7-Fa-oId"/>
-                        <outletCollection property="nounLabels" destination="NOm-ZQ-Fay" collectionClass="NSMutableArray" id="olm-m5-eSS"/>
-                        <outletCollection property="nounLabels" destination="aLv-WB-Ns2" collectionClass="NSMutableArray" id="vtM-3m-iOn"/>
-                        <outletCollection property="nounLabels" destination="qip-ny-Zqy" collectionClass="NSMutableArray" id="3mg-dG-Rzn"/>
-                        <outletCollection property="nounLabels" destination="a3p-Ex-lW4" collectionClass="NSMutableArray" id="P2I-bE-VN7"/>
-                        <outletCollection property="nounLabels" destination="JRk-oQ-0Ig" collectionClass="NSMutableArray" id="G7d-xo-ScM"/>
-                        <outletCollection property="nounLabels" destination="YWJ-gV-j04" collectionClass="NSMutableArray" id="ptL-Jq-fr4"/>
-                        <outletCollection property="nounLabels" destination="Zjh-Ux-kat" collectionClass="NSMutableArray" id="Sa6-Yc-TZy"/>
-                        <outletCollection property="nounLabels" destination="DMN-kS-7bI" collectionClass="NSMutableArray" id="D1i-dY-LUl"/>
-                        <outletCollection property="nounLabels" destination="cic-Ct-08X" collectionClass="NSMutableArray" id="56V-9f-Qhh"/>
-                        <outletCollection property="nounLabels" destination="bkS-GZ-Z7v" collectionClass="NSMutableArray" id="coV-Uj-Uxm"/>
-                        <outletCollection property="nounLabels" destination="IT5-Nc-pTe" collectionClass="NSMutableArray" id="tmm-iM-K0n"/>
-                        <outletCollection property="nounLabels" destination="Zf5-2v-qdo" collectionClass="NSMutableArray" id="7bH-Dt-sZ5"/>
-                        <outletCollection property="nounLabels" destination="Q8k-b0-0Ni" collectionClass="NSMutableArray" id="M04-Yh-Mmi"/>
+                        <outletCollection property="nounButtons" destination="GcA-hT-CPV" collectionClass="NSMutableArray" id="1bi-rs-RVE"/>
+                        <outletCollection property="nounButtons" destination="zSK-9F-LcL" collectionClass="NSMutableArray" id="teT-sk-02s"/>
+                        <outletCollection property="nounButtons" destination="4TV-TL-rje" collectionClass="NSMutableArray" id="KDb-E5-YPE"/>
+                        <outletCollection property="nounButtons" destination="7fo-PP-PLb" collectionClass="NSMutableArray" id="Csd-pn-kkh"/>
+                        <outletCollection property="nounButtons" destination="Zmj-xl-OgN" collectionClass="NSMutableArray" id="g4S-Y1-oVY"/>
+                        <outletCollection property="nounButtons" destination="q7n-N5-SnW" collectionClass="NSMutableArray" id="fZq-MU-klQ"/>
+                        <outletCollection property="nounButtons" destination="A5w-q4-4Sc" collectionClass="NSMutableArray" id="LP6-dn-Zlc"/>
+                        <outletCollection property="nounButtons" destination="24Y-1G-Zn5" collectionClass="NSMutableArray" id="EuA-7u-EBh"/>
+                        <outletCollection property="nounButtons" destination="XQx-yi-1w7" collectionClass="NSMutableArray" id="x9g-Fz-xss"/>
+                        <outletCollection property="nounButtons" destination="0F1-y1-P96" collectionClass="NSMutableArray" id="Njn-LW-128"/>
+                        <outletCollection property="nounButtons" destination="wFO-UA-v2Y" collectionClass="NSMutableArray" id="Gdb-Qc-Lcf"/>
+                        <outletCollection property="nounButtons" destination="pLC-an-3Gs" collectionClass="NSMutableArray" id="ihv-0o-0jJ"/>
+                        <outletCollection property="nounButtons" destination="GbB-3M-s7x" collectionClass="NSMutableArray" id="ZUr-bN-zLt"/>
+                        <outletCollection property="nounButtons" destination="yFJ-ac-dde" collectionClass="NSMutableArray" id="iag-Gb-Df2"/>
+                        <outletCollection property="nounButtons" destination="Qwv-7e-lU3" collectionClass="NSMutableArray" id="7qG-mC-ZzG"/>
+                        <outletCollection property="nounButtons" destination="xZg-7k-8yh" collectionClass="NSMutableArray" id="lY3-SZ-eAt"/>
+                        <outletCollection property="nounButtons" destination="tZ3-Uu-ATj" collectionClass="NSMutableArray" id="w8p-65-Xcf"/>
+                        <outletCollection property="nounButtons" destination="kSM-hY-meD" collectionClass="NSMutableArray" id="GRw-Hf-dPD"/>
+                        <outletCollection property="nounButtons" destination="py1-nP-YiH" collectionClass="NSMutableArray" id="TGW-BF-dRz"/>
+                        <outletCollection property="nounButtons" destination="U8L-bp-RXR" collectionClass="NSMutableArray" id="6kA-ds-btU"/>
+                        <outletCollection property="nounButtons" destination="1x4-83-OIV" collectionClass="NSMutableArray" id="SHB-fQ-Ptd"/>
+                        <outletCollection property="nounButtons" destination="qlP-ZH-Gjv" collectionClass="NSMutableArray" id="Lk1-bY-iIq"/>
+                        <outletCollection property="nounButtons" destination="nTj-MA-iJJ" collectionClass="NSMutableArray" id="rci-YU-Dv7"/>
+                        <outletCollection property="nounButtons" destination="eMI-K5-MJZ" collectionClass="NSMutableArray" id="Z47-Tk-0O4"/>
+                        <outletCollection property="nounButtons" destination="Dbt-Y5-V3w" collectionClass="NSMutableArray" id="E4u-fJ-5cG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
