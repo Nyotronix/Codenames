@@ -51,5 +51,6 @@ class ViewController: UIViewController {
     }
     
     //MARK: Actions
-
+    @IBAction func EndTurnButton(_ sender: UIButton) {
+    }
 }
