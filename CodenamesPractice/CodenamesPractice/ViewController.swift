@@ -17,8 +17,24 @@ class ViewController: UIViewController {
     
     //MARK: Global Variables
     var turnInt: Int = 0
+    var nounColors = [UIColor?](repeatElement(nil, count: 25))
     
     //MARK: Functions
+    func assignColors(spymaster: Bool){
+        //Assigns the colors if spymaster is true, takes away colors if false
+        if spymaster{
+            for noun in 0...24{
+                if let color = nounColors[noun]{
+                    nounButtons[noun].setTitleColor(color, for: .normal)
+                }
+            }
+        } else {
+            for noun in nounButtons{
+                noun.setTitleColor(.black, for: .normal)
+            }
+        }
+    }
+    
     func changeTurn(){
         //Change the team, changing the colors of the words and the team identity label
         //Change the label
@@ -26,16 +42,25 @@ class ViewController: UIViewController {
         switch turnInt{
         case 0:
             turnIdentity.text = "Blue spymaster"
+            assignColors(spymaster: true)
         case 1:
             turnIdentity.text = "Blue team members"
+            assignColors(spymaster: false)
         case 2:
             turnIdentity.text = "Green spymaster"
+            assignColors(spymaster: true)
         case 3:
             turnIdentity.text = "Green team members"
+            assignColors(spymaster: false)
         default:
             turnIdentity.text = "Lol this shouldn't happen"
         }
+        
     }
+    
+    
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -61,7 +86,6 @@ class ViewController: UIViewController {
         
         //Assing teams to each noun
         var tempInt: Int
-        var nounColors = [UIColor?](repeatElement(nil, count: 25))
         var choosingColors = [UIColor](repeatElement(UIColor.blue, count: 9)) + [UIColor](repeatElement(UIColor.green, count: 8))
         choosingColors += [UIColor](repeatElement(UIColor.black, count: 7))
         choosingColors += [UIColor.red]
